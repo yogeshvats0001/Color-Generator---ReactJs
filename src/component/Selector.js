@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './Selector.css';
 
 const Selector = () => {
   const [color, setColor] = useState("");
@@ -45,7 +46,7 @@ const Selector = () => {
         <button onClick={() => generateColor()}>Generate Color</button>
       </div>
       <div className="color_container" style={divStyle}>
-        <span>{color}</span>
+        <span>{style}</span>
       </div>
     </div>
   );
